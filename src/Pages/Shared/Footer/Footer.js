@@ -1,9 +1,14 @@
+import './Footer.css';
+
+
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
-        <div>
-            <h3>this is footer</h3>
-        </div>
+       <div className="footer">
+           <p>© DMS Travel Guide. All right reserved {year} </p>
+        
+       </div>
     );
 };
 
