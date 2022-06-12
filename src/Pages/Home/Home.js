@@ -1,10 +1,11 @@
+import Services from "../Services/Services";
 import Banner from "./Banner";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h2>service home</h2>
+            <Services></Services>
             <h2>part 3</h2>
         </div>
     );

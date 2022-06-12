@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "img": "https://photos.nomadicnotes.com/img/s/v-3/p2759081374-4.jpg",
+    "name": "Cox's Bazar",
+    "description": "Cox's Bazar is a town on the southeast coast of Bangladesh. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds..Cox's Bazar is one of the most popular places for tourists in Bangladesh, visited all year round. The district is located in the southeastern part of the country and is home to the longest sea beach in the world.When it comes to Cox's Bazar, you are spoilt for choice when it comes to sun, sea, and sand. Inani, Kolatoli, Sugandha, and Laboni Point are just several of the region's many beaches. You can also find beautiful hotels and resorts dotted throughout the region. Himchori has hilltops and waterfalls and is close to Kolatoli beach. In addition, Cox's Bazar is a shopper's paradise. The Burmese market has a strong foothold there, and you can find vast collections of decorations, beautiful clothing, household items, cutlery and kitchen supplies, and cosmetics throughout these shops.If you love seafood, visit any of the restaurants or roadside shops to find a variety of seafood dishes, served fresh. The fine-dining restaurants serve foods from all over the world, so you'll always be spoilt for choice!",
+    "price": "250"
+  },
+  {
+    "id": "2",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Deer_at_sundarban.jpg/1200px-Deer_at_sundarban.jpg",
+    "name": "Sundarban",
+    "description": "Sundarbans is a mangrove area in the delta formed by the confluence of the Padma, Brahmaputra and Meghna Rivers in the Bay of Bengal. Sundarban has small beaches and islands that can be enjoyed throughout the day, and particularly at sunset. You can also walk through the dense forest, getting up close and personal with the luscious plants and so much amazing wildlife. It is one of Bangladesh's top tourist attractions and is home to the national symbol - the Royal Bengal Tiger.. It spans the area from the Baleswar River in Bangladesh's division of Khulna to the Hooghly River in India's state of West Bengal. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is intersected by multiple tidal streams and channels. Four protected areas in the Sundarbans are enlisted as UNESCO World Heritage Sites, viz. Sundarbans West (Bangladesh), Sundarbans South (Bangladesh), Sundarbans East (Bangladesh) and Sundarbans National Park (India).Hiron Point, or Nilkomol, is a must-visit spot where you can see various animals in their natural habitat. If you are lucky, you might even get a glimpse of the Royal Bengal tiger!",
+    "price": "250"
+  },
+  {
+    "id": "3",
+    "img": "https://nomadparadise.com/wp-content/uploads/2021/04/bangladesh-places-04-768x512.jpg.webp",
+    "name": "Sylhet Tour",
+    "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It's known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate. The tiny Museum of Rajas contains belongings of the local folk poet Hasan Raja..Cast your eyes on a map of Bangladesh, and you'll quickly be able to locate Sylhet in the eastern region. Not only is it one of the country's greenest districts, it also has the highest amount of rainfall. Sylhet is popular for its lakes and other water bodies, and it is also home to many tea gardens and small tropical forests. Ratargul Swamp forest, which is a freshwater swamp forest, is the most iconic place to visit here, closely followed by Jaflong and Bisanakandi. You can view some truly jaw-dropping feats of nature in these forests, unlike anywhere else on Earth. A 14th century Muslim saint Shah Jalal is buried in this very district. His burial site has been turned into a shrine and is known as Shahjalal Dargah, which is visited by millions of people all year round. Sylhet also has many beautiful tea gardens and several museums worth checking out. If you want to taste the unique cuisine of the district, drop by at Panshi or Paanch Bhai for a quick lunch or dinner. Utterly divine!",
+    "price": "200"
+  },
+  {
+    "id": "4",
+    "img": "https://nomadparadise.com/wp-content/uploads/2021/04/bangladesh-places-07-768x512.jpg.webp",
+    "name": "St. Martin's Island",
+    "description": "Located close to Cox's Bazar and the Bay of Bengal, Saint Martin's Island is a small and very popular island, frequented by tourists from all around the world. The island is tiny and can be explored within a day. No vehicles are allowed on the island either, making it a pollution-free territory. St. Martin's has an extension called the Chhera Dweep or Chhera Island, that you can visit via a rented speedboat. When not roaming around the awe and beauty of the island, you can try your hand at plenty of activities, such as scuba diving, cycling, and stargazing (or moon gazing if you visit during a full moon). The island also has unique snacks and foods that you do not want to miss!",
+    "price": "300"
+  }
+]
