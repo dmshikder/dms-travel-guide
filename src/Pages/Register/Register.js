@@ -38,7 +38,7 @@ console.log(password,name)
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" id=""  placeholder="Your name" required/>
                 <input type="email" name="email" id=""  placeholder="Your email" required/>
-           <input type="password" name="password" id="" />
+           <input type="password" name="password" id="" placeholder='Your password' required/>
                 <input type="submit" value="Register" />
             </form>
             <p>Already have an account? <Link to='/login' className='text-danger text-decoration-none '  onClick={navigateLogin}>Please Login</Link></p>
