@@ -2,6 +2,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.my-services {
+  text-align: center;
+  color: #0d6efd;
+  padding: 15px;
+}
 
 @media screen and (max-width: 576px) {
   .services-container {

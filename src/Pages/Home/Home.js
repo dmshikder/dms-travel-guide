@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Services></Services>
-            <h2>Tour Explore</h2>
+            <h2 className="tour">Tour Explore</h2>
             <div className="h-video container"><TourVideo></TourVideo></div>
         </div>
     );
