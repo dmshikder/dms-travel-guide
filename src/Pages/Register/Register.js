@@ -9,7 +9,7 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
 
     const navigate =useNavigate();
     const navigateLogin = () =>{
@@ -41,7 +41,7 @@ console.log(password,name)
            <input type="password" name="password" id="" placeholder='Your password' required/>
                 <input type="submit" value="Register" />
             </form>
-            <p>Already have an account? <Link to='/login' className='text-danger text-decoration-none '  onClick={navigateLogin}>Please Login</Link></p>
+            <p>Already have an account? <Link to='/login' className='text-primary text-decoration-none '  onClick={navigateLogin}>Please Login</Link></p>
         </div>
     );
 };

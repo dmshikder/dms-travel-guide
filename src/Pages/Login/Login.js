@@ -1,7 +1,9 @@
 import { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
-import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import auth from "../../firebase.init";
 import SocialLogin from "./SocialLogin/SocialLogin";
 
@@ -10,13 +12,19 @@ const Login = () => {
   const passwordRef = useRef("");
   const navigate = useNavigate();
   const location = useLocation();
-  let from = location.state?.from?.pathname || '/';
+  let from = location.state?.from?.pathname || "/";
 
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
+    const [sendPasswordResetEmail, sending]= useSendPasswordResetEmail(auth);
+  let errorElement;
+  if (error) {
+    errorElement = <p className="text-danger">Error: {error.message}</p>;
+  }
+
 
   if (user) {
-    navigate(from, {replace:true});
+    navigate(from, { replace: true });
   }
 
   const handleSubmit = (event) => {
@@ -28,6 +36,18 @@ const Login = () => {
   const navigateRegister = (event) => {
     navigate("/register");
   };
+
+  const resetPassword = async() =>{
+    const email = emailRef.current.value;
+    if(email){
+      await sendPasswordResetEmail(email);
+    toast('Sent email');
+    }
+    else{
+      toast('Please enter your email address')
+    }
+
+  }
 
   return (
     <div className="container w-50 mx-auto">
@@ -54,20 +74,30 @@ const Login = () => {
         </Form.Group>
 
         <Button variant="primary" type="submit">
-          Submit
+          Login
         </Button>
       </Form>
+      {errorElement}
       <p>
-        New to DMS Travel Guide?{" "}
-        <Link
+        New to DMS Travel Guide? <Link
           to="/register"
-          className="text-danger text-decoration-none "
+          className="text-primary text-decoration-none "
           onClick={navigateRegister}
         >
           Please Register
         </Link>
       </p>
+      <p>
+        Forget Password? <button
+         
+          className="text-primary text-decoration-none btn btn-link "
+          onClick={resetPassword}
+        >
+          Reset Password 
+        </button>
+      </p>
       <SocialLogin></SocialLogin>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
